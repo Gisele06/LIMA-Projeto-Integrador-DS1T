@@ -1,11 +1,54 @@
+:root{
+    --primary-color: #FCA311;
+    --secundary-color: #FDCF23;
+
+}
+
+
 body{
-    background-color: aqua;
+    background-color: white;
+}
+
+header{
+    margin: 39px 232px 0px 229px;
+
 }
 
 .nav{
-    background-color:pink ;
+    background-color:white ;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: 1459px;
+    height: 109px;
+    border-radius: 20px;
     padding: 0 40px;
+    margin-right: 232;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 143px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 629px;
+    height: 110px;
+    border-radius: 10px;
+    background-color:var(--primary-color) ;
+}
+
+.botao span{
+    font-family: inter;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
 }
