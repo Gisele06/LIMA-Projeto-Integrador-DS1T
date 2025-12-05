@@ -4,9 +4,9 @@
 
 }
 
-
+/* body e header */
 body{
-    background-color: white;
+    background-color: rgb(255, 0, 0);
 }
 
 header{
@@ -24,6 +24,8 @@ header{
     padding: 0 40px;
     margin-right: 232;
     justify-content: space-between;
+    position: absolute;
+    z-index: 2;
 }
 
 .nav-links{
@@ -36,6 +38,27 @@ header{
     font-weight: 300;
 }
 
+/* main  */
+
+.imagem-fundo{
+    width: 1830px;
+    height: 1133px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(751px, -90px);
+    display: flex;
+}
+
+.inicio-container{
+    background-color: rgb(177, 177, 177);
+    width:1459px;
+    height: 807px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 2;
+    margin: 171px 231px 101px 230px;
+}
+
 .botao{
     display: flex;
     align-items: center;
@@ -44,6 +67,9 @@ header{
     height: 110px;
     border-radius: 10px;
     background-color:var(--primary-color) ;
+    margin-top: 260px;
+    margin-left: 54px;
+
 }
 
 .botao span{
@@ -51,4 +77,26 @@ header{
     font-size: 40px;
     font-weight: bolder;
     color: white;
+    margin: 31px 66px 32px 66px;
+}
+
+.carros{
+    display: flex;
+    justify-content: center;
+    transform: translate(748px, 0px);
+}
+
+.titulo{
+    font-family: inter;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 89px 248px 44px 54px;
+}
+
+.titulo span{
+    color: var(--primary-color);
+}
+
+.texto2{
+    margin-left: 54px;
 }
