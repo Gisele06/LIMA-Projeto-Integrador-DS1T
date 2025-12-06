@@ -1,12 +1,14 @@
 :root{
     --primary-color: #FCA311;
     --secundary-color: #FDCF23;
+    --terciary-color: #13213C;
 
 }
 
 /* body e header */
 body{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 8942px;
 }
 
 header{
@@ -26,6 +28,7 @@ header{
     justify-content: space-between;
     position: absolute;
     z-index: 2;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 .nav-links{
@@ -50,24 +53,27 @@ header{
 }
 
 .inicio-container{
-    background-color: rgb(177, 177, 177);
+    background-color: rgba(255, 255, 255, 0.95);
     width:1459px;
     height: 807px;
     border-radius: 50px;
     position: absolute;
     z-index: 2;
-    margin: 171px 231px 101px 230px;
+    margin: 135px 231px 101px 230px;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 .botao{
     display: flex;
+    position: absolute;
+    z-index: 3;
     align-items: center;
     justify-content: center;
     width: 629px;
     height: 110px;
     border-radius: 10px;
     background-color:var(--primary-color) ;
-    margin-top: 260px;
+    margin-top: 44px;
     margin-left: 54px;
 
 }
@@ -77,14 +83,25 @@ header{
     font-size: 40px;
     font-weight: bolder;
     color: white;
-    margin: 31px 66px 32px 66px;
+    margin: px 66px 32px 66px;
+    
+}
+
+.carrosebotao{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    justify-content: center;
+
 }
 
 .carros{
-    display: flex;
-    justify-content: center;
-    transform: translate(748px, 0px);
+   display: flex;
+   position: absolute;
+   z-index: 2;
+   margin: 600px 0px 800px 740px;
 }
+
 
 .titulo{
     font-family: inter;
@@ -92,11 +109,21 @@ header{
     font-weight: bold;
     margin: 89px 248px 44px 54px;
 }
+.titulo p{
+    color: var(--terciary-color);
+}
+
 
 .titulo span{
     color: var(--primary-color);
 }
 
 .texto2{
+    font-family: inter;
+    font-weight: normal;
+    font-size: 43px;
     margin-left: 54px;
 }
+
+
+/* parte de principais funcionalidades */
