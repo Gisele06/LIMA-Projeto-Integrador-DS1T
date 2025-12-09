@@ -53,7 +53,7 @@ header{
 
 .inicio-container{
     background-color: rgba(255, 255, 255, 0.95); 
-    position: relative;
+    /* position: relative; */
     border-radius: 50px;
     padding-top: 5px;
     padding-bottom: 93px;
@@ -357,3 +357,143 @@ header{
 .demonstracao3 img:hover{
    transform: scale(1.07);
 }
+
+/* parte de preços e planos */
+/* plano mensal */
+
+.parte4{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+    padding-top: 170px;
+}
+
+.parte4 img{
+    margin: 119px 44px 222px 46px;
+    width: 1830px;
+    height: 1133px;
+    position: absolute;
+    z-index: -2;
+    display: flex;
+}
+
+.plano-mensal{
+    background-color: white;
+    width: 729px;
+    height: 1065px;
+    border-radius: 50px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    font-family: inter;
+    align-items: center;
+
+}
+
+.titulomensal{
+    font-weight: bold;
+    font-size: 48px;
+    margin: 47px 207px 94px 204px;
+}
+
+.valormensal{
+    font-size: 64px;
+    font-weight: bolder;
+    margin: 0px 337px 79px 77px;
+}
+
+.botaocomprar1{
+    width: 550px;
+    height: 110px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 46px 95px 53px 75px;
+}
+
+.botaocomprar1 span{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.descricao-pacote1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* plano anual */
+.plano-anual{
+    background-color: white;
+    width: 729px;
+    height: 1065px;
+    border-radius: 50px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    font-family: inter;
+    margin: 0 40px;
+    align-items: center;
+}
+
+
+.tituloanual{
+    font-weight: bold;
+    font-size: 48px;
+    margin: 47px 0px 94px 0px;
+}
+
+.valor-antigo{
+    font-size: 48px;
+    font-weight: bold;
+    color: #BCBCBC;
+    text-decoration: line-through;
+}
+
+.valoranual{
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.valoresanuais{
+    margin: 0px 140px 66px 90px;
+}
+
+.desconto{
+    margin-left: 10px;
+    font-size: 36px;
+    font-weight:bold;
+    font-family: 36px;
+    color: #FCA311;
+}
+
+.botaocomprar2{
+    width: 550px;
+    height: 110px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 223px 89px 53px 90px;
+}
+
+.botaocomprar2 span{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.descricao-pacote2{
+
+    font-size: 32px;
+    font-weight: bold;
+}
+
