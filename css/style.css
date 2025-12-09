@@ -219,3 +219,141 @@ header{
     width: 1830px;
     height: 1133px;
 }
+
+/* parte azul segunda funcionalidade */
+.parte2{
+    display: flex;
+    flex-direction: column;
+    background-color: #13213C;
+    width: 1920px;
+    padding-top: 196px;
+}
+
+.funcionalidade2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    height: 423px;
+    width: 601px;
+}
+
+.funcionalidade2 img{
+    display: flex;
+    margin: 20px 18px 0px 483px;
+    width: 100px;
+    height: 100px;
+}
+
+.funcionalidade2 span{
+    margin: 59px 103px 182px 131px;
+    font-size: 40px;
+    font-weight:800;
+    font-family: inter;
+}
+
+.lista-funcional2 {
+    display: flex;
+    width: 1427px;
+    height: 432px;
+    border-radius: 50px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 190px 0px 240px;
+}
+
+.lista-funcional2 p{
+    margin: 97px 81px 98px 103px;
+    font-family: inter;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.demonstracao2 img{
+    width: 796px;
+    height: 587px;
+    border-radius: 50px;
+    margin: 154px 520px 143px 570px;
+    transition: transform 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+.demonstracao2 img:hover{
+   transform: scale(1.07);
+}
+
+/* parte amarela terceira e última funcionalidade */
+
+.parte3{
+    display: flex;
+    flex-direction: column;
+    background-color: #FCCE23;
+    width: 1920px;
+    padding-top: 196px;
+    padding-bottom: 314px;
+}
+
+.funcionalidade3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    height: 423px;
+    width: 601px;
+}
+
+.funcionalidade3 img{
+    display: flex;
+    margin: 20px 18px 0px 483px;
+    width: 100px;
+    height: 100px;
+}
+
+.funcionalidade3 span{
+    margin: 46px 38px 141px 60px;
+    font-size: 40px;
+    font-weight:800;
+    font-family: inter;
+}
+
+.lista-funcional3 {
+    display: flex;
+    width: 1427px;
+    height: 381px;
+    border-radius: 50px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 190px 0px 240px;
+}
+
+.lista-funcional3 p{
+
+    font-family: inter;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.demonstracao3 img{
+    width: 796px;
+    height: 587px;
+    border-radius: 50px;
+    margin: 154px 520px 301px 570px;
+    transition: transform 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+.demonstracao3 img:hover{
+   transform: scale(1.07);
+}
