@@ -2,26 +2,24 @@
     --primary-color: #FCA311;
     --secundary-color: #FDCF23;
     --terciary-color: #13213C;
-
 }
 
 /* body e header */
 body{
-    /* background-image: url(../img/fundo\ amarelo\ texturizado.png); */
     background-color: rgb(255, 255, 255);
-    height:8942px;
+    height: 8942px;
 }
 
 header{
     margin: 39px 232px 0px 229px;
-
 }
 
 .nav{
     background-color:white ;
     display: flex;
     align-items: center;
-    width: 1459px;
+    width: 100%;
+    max-width: 1459px;
     height: 109px;
     border-radius: 20px;
     padding: 0 40px;
@@ -53,7 +51,6 @@ header{
 
 .inicio-container{
     background-color: rgba(255, 255, 255, 0.95); 
-    /* position: relative; */
     border-radius: 50px;
     padding-top: 5px;
     padding-bottom: 93px;
@@ -65,13 +62,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 629px;
+    width: 100%;
+    max-width: 629px;
     height: 110px;
     border-radius: 10px;
-    background-color:var(--primary-color) ;
+    background-color: var(--primary-color);
     margin-top: 44px;
     margin-left: 54px;
-
 }
 
 .botao span{
@@ -79,15 +76,12 @@ header{
     font-size: 40px;
     font-weight: bolder;
     color: white;
-    margin: px 66px 32px 66px;
-    
 }
 
 .carrosebotao{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .carrosebotao img{
@@ -100,7 +94,6 @@ header{
    margin: 10px 0px 0px 740px;
 }
 
-
 .titulo{
     font-family: inter;
     font-size: 60px;
@@ -110,7 +103,6 @@ header{
 .titulo p{
     color: var(--terciary-color);
 }
-
 
 .titulo span{
     color: var(--primary-color);
@@ -125,8 +117,6 @@ header{
 
 /* parte de principais funcionalidades */
 
-   /* parte amarela: primeiras funcionalidades */
-
 .funcionalidades-container{
     position: relative; 
     display: flex;
@@ -135,6 +125,8 @@ header{
     width: 100%;
     background-color: #FCCE23;
 }
+
+/* parte amarela */
 
 .parte1{
     display: flex;
@@ -149,7 +141,6 @@ header{
     text-align: center;
     margin-top: 64px;
     margin-bottom: 80px;
-
 }
 
 .funcionalidade1 {
@@ -160,10 +151,10 @@ header{
     z-index: 10;
     background-color: white;
     border-radius: 50px;
-    margin: 0 auto;
-    margin-bottom: 120px;
+    margin: 0 auto 120px auto;
     height: 423px;
-    width: 601px;
+    width: 100%;
+    max-width: 601px;
 }
 
 .funcionalidade1 img{
@@ -182,48 +173,49 @@ header{
 
 .lista-funcional {
     display: flex;
-    width: 1427px;
+    padding: 40px;
+    width: 100%;
+    max-width: 1427px;
     height: 381px;
     border-radius: 50px;
-    /* padding: 85px; */
     background-color: white;
     align-items: center;
     justify-content: center;
-    margin: 0px 190px 0px 240px;
+    margin: 0px auto;
 }
 
 .lista-funcional p{
-
     font-family: inter;
     font-size: 32px;
     font-weight: bold;
 }
 
 .demonstracao1 img{
-    width: 796px;
-    height: 587px;
+    display: flex;
+    width: 100%;
+    max-width: 796px;
+    height: auto;
     border-radius: 50px;
-    margin: 154px 520px 301px 570px;
+    margin: 154px auto 301px auto;
     transition: transform 0.3s ease-in-out;
     cursor:pointer;
 }
 
-.demonstracao1 img:hover{
-   transform: scale(1.07);
-}
-
 .fundolaranja{
     position: absolute;
-    width: 1830px;
+    width: 100%;
+    max-width: 1830px;
     height: 1133px;
 }
 
-/* parte azul segunda funcionalidade */
+/* parte azul */
+
 .parte2{
     display: flex;
     flex-direction: column;
     background-color: #13213C;
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     padding-top: 196px;
 }
 
@@ -235,10 +227,10 @@ header{
     z-index: 10;
     background-color: white;
     border-radius: 50px;
-    margin: 0 auto;
-    margin-bottom: 120px;
+    margin: 0 auto 120px auto;
     height: 423px;
-    width: 601px;
+    width: 100%;
+    max-width: 601px;
 }
 
 .funcionalidade2 img{
@@ -257,13 +249,14 @@ header{
 
 .lista-funcional2 {
     display: flex;
-    width: 1427px;
+    width: 100%;
+    max-width: 1427px;
     height: 432px;
     border-radius: 50px;
     background-color: white;
     align-items: center;
     justify-content: center;
-    margin: 0px 190px 0px 240px;
+    margin: 0px auto;
 }
 
 .lista-funcional2 p{
@@ -274,25 +267,24 @@ header{
 }
 
 .demonstracao2 img{
-    width: 796px;
-    height: 587px;
+    display: flex;
+    width: 100%;
+    max-width: 796px;
+    height: auto;
     border-radius: 50px;
-    margin: 154px 520px 143px 570px;
+    margin: 154px auto 143px auto;
     transition: transform 0.3s ease-in-out;
     cursor:pointer;
 }
 
-.demonstracao2 img:hover{
-   transform: scale(1.07);
-}
-
-/* parte amarela terceira e última funcionalidade */
+/* parte amarela 3 */
 
 .parte3{
     display: flex;
     flex-direction: column;
     background-color: #FCCE23;
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     padding-top: 196px;
     padding-bottom: 314px;
 }
@@ -305,10 +297,10 @@ header{
     z-index: 10;
     background-color: white;
     border-radius: 50px;
-    margin: 0 auto;
-    margin-bottom: 120px;
+    margin: 0 auto 120px auto;
     height: 423px;
-    width: 601px;
+    width: 100%;
+    max-width: 601px;
 }
 
 .funcionalidade3 img{
@@ -327,37 +319,33 @@ header{
 
 .lista-funcional3 {
     display: flex;
-    width: 1427px;
+    width: 100%;
+    max-width: 1427px;
     height: 381px;
     border-radius: 50px;
     background-color: white;
     align-items: center;
     justify-content: center;
-    margin: 0px 190px 0px 240px;
+    margin: 0px auto;
 }
 
 .lista-funcional3 p{
-
     font-family: inter;
     font-size: 32px;
     font-weight: bold;
 }
 
-.demonstracao3 img{
-    width: 796px;
-    height: 587px;
+/* .demonstracao3 img{
+    width: 100%;
+    max-width: 796px;
+    height: auto;
     border-radius: 50px;
-    margin: 154px 520px 301px 570px;
+    margin: 154px 0px 301px auto;
     transition: transform 0.3s ease-in-out;
     cursor:pointer;
-}
+} */
 
-.demonstracao3 img:hover{
-   transform: scale(1.07);
-}
-
-/* parte de preços e planos */
-/* plano mensal */
+/* preços */
 
 .parte4{
     position: relative;
@@ -374,7 +362,8 @@ header{
 
 .parte4 img{
     margin: 119px 44px 222px 46px;
-    width: 1830px;
+    width: 100%;
+    max-width: 1830px;
     height: 1133px;
     position: absolute;
     z-index: -2;
@@ -383,7 +372,8 @@ header{
 
 .plano-mensal{
     background-color: white;
-    width: 729px;
+    width: 100%;
+    max-width: 729px;
     height: 1065px;
     border-radius: 50px;
     display: flex;
@@ -392,7 +382,6 @@ header{
     font-family: inter;
     align-items: center;
     margin: 0 173px 100px 120px;
-
 }
 
 .titulomensal{
@@ -408,6 +397,7 @@ header{
 }
 
 .botaocomprar1{
+    width: 100%;
     width: 550px;
     height: 110px;
     border-radius: 10px;
@@ -430,9 +420,11 @@ header{
 }
 
 /* plano anual */
+
 .plano-anual{
     background-color: white;
-    width: 729px;
+    width: 100%;
+    max-width: 729px;
     height: 1065px;
     border-radius: 50px;
     display: flex;
@@ -442,7 +434,6 @@ header{
     margin: 0 40px 100px 0;
     align-items: center;
 }
-
 
 .tituloanual{
     font-weight: bold;
@@ -470,19 +461,19 @@ header{
     margin-left: 10px;
     font-size: 36px;
     font-weight:bold;
-    font-family: 36px;
     color: #FCA311;
 }
 
 .botaocomprar2{
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
     height: 110px;
     border-radius: 10px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 223px 89px 53px 90px;
+    margin: 223px 450px 53px 90px;
 }
 
 .botaocomprar2 span{
@@ -492,11 +483,9 @@ header{
 }
 
 .descricao-pacote2{
-
     font-size: 32px;
     font-weight: bold;
 }
-
 
 /* footer */
 
@@ -548,15 +537,14 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    /* margin: 0 auto 8px; */
     font-weight: bold;
     font-size: 32px;
     color: #fff;
 }
+
 html {
   scroll-behavior: smooth;
 }
-
 
 .circulo-G { background: #1c2746; }
 .circulo-I { background: #f4a018; }
