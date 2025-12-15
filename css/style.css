@@ -7,12 +7,9 @@
 /* body e header */
 body{
     background-color: rgb(255, 255, 255);
-    height: 8942px;
 }
 
-header{
-    margin: 39px 232px 0px 229px;
-}
+header{margin: 2rem auto 0 14rem;}
 
 .nav{
     background-color:white ;
@@ -32,7 +29,7 @@ header{
     display: flex;
     align-items: center;
     gap: 80px;
-    margin: 143px;
+    margin: 10rem;
     font-family: Inter;
     font-size: 24px;
     font-weight: 300;
@@ -50,11 +47,13 @@ header{
 }
 
 .inicio-container{
+    position: relative;
     background-color: rgba(255, 255, 255, 0.95); 
     border-radius: 50px;
     padding-top: 5px;
     padding-bottom: 93px;
-    margin: 26px 231px 101px 230px;
+    margin: 26px auto 101px auto;
+    max-width: 1450px;
     box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -78,21 +77,24 @@ header{
     color: white;
 }
 
-.carrosebotao{
+.carrosebotao {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .carrosebotao img{
-    position: absolute;
-    margin-bottom: 400px;
+    max-width: 710px;
+    max-height: 250px;
+    bottom: 14rem;
+    left: 47rem;
 }
 
 .carros{
-   display: flex;
-   margin: 10px 0px 0px 740px;
+   max-width: 420px;
+   position: absolute;
 }
+
 
 .titulo{
     font-family: inter;
@@ -214,8 +216,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #13213C;
-    width: 100%;
-    max-width: 1920px;
+    width: 100%;;
     padding-top: 196px;
 }
 
@@ -284,7 +285,6 @@ header{
     flex-direction: column;
     background-color: #FCCE23;
     width: 100%;
-    max-width: 1920px;
     padding-top: 196px;
     padding-bottom: 314px;
 }
@@ -335,17 +335,6 @@ header{
     font-weight: bold;
 }
 
-/* .demonstracao3 img{
-    width: 100%;
-    max-width: 796px;
-    height: auto;
-    border-radius: 50px;
-    margin: 154px 0px 301px auto;
-    transition: transform 0.3s ease-in-out;
-    cursor:pointer;
-} */
-
-/* preços */
 
 .parte4{
     position: relative;
@@ -374,7 +363,7 @@ header{
     background-color: white;
     width: 100%;
     max-width: 729px;
-    height: 1065px;
+    height: auto;
     border-radius: 50px;
     display: flex;
     justify-items: center;
@@ -425,7 +414,7 @@ header{
     background-color: white;
     width: 100%;
     max-width: 729px;
-    height: 1065px;
+    height: auto;
     border-radius: 50px;
     display: flex;
     justify-items: center;
@@ -549,3 +538,174 @@ html {
 .circulo-G { background: #1c2746; }
 .circulo-I { background: #f4a018; }
 .circulo-F { background: #000; }
+
+
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .imagem-fundo {
+        display: none;
+    }
+
+    header {
+        margin: 20px;
+    }
+
+    .nav {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .nav-links {
+        gap: 10rem;
+        font-size: 15px;
+    }
+
+    .logo-container img {
+        width: 150px;
+    }
+
+    .inicio-container{
+        width: 655px;
+        height: 510px;
+        margin: 59px 44px 58px 45px;
+    }
+
+    .titulo{
+     font-size: 32px;
+     width: 565px;
+    }
+
+    .texto2{
+        font-size: 20px;
+    
+    }
+
+    .conteudo{
+        
+        margin-top: -50px;
+    }
+
+    .botao{
+        justify-self: center;
+        width: 300px;
+        height: 60px;
+    }
+
+    .botao span{
+        font-size: 20px;
+    }
+
+    .titulo-funcio{
+        font-size: 32px;
+    }
+
+    .funcionalidade1{
+        width: 430px;
+        height: 235px;
+        justify-content: center;
+        
+
+    }
+
+    .funcionalidade1 span{
+        font-size: 24px;
+        
+
+    }
+
+    .funcionalidade1 img{
+        width: 64px;
+        height: 64px;
+        margin-top: 7rem;
+        margin-right: 10rem;
+    }
+
+
+    .plano-anual{
+        justify-content: center;
+        align-items: center;
+        width: 310px;
+        height: 490px;
+        box-shadow: #000;
+    }
+
+    .valoresanuais span{
+        font-size: 24px;
+    }
+
+    .plano-mensal{
+        width: 310px;
+        height: 490px;
+    }
+    .parte4{
+        align-items: center;
+    }
+    .parte4 img{
+        display: none;
+    }
+    .descricao-pacote1,.descricao-pacote2{
+        font-size: 14px;
+    }
+
+    .valoranual{
+        font-size: 32px;
+    }
+
+    .tituloanual{
+        font-size: 24px;
+    }
+
+    .titulomensal{
+        font-size: 24px;
+    }
+    .valormensal{
+        font-size: 32px;
+    }
+    .botaocomprar1{
+        width: 227px;
+        height: 55px;
+    }
+
+    .botaocomprar2{
+        width: 227px;
+        height: 55px;
+    }
+
+    .botaocomprar1 span{
+        font-size: 20px;
+    }
+    
+    .botaocomprar2 span{
+        font-size: 20px;
+    }
+
+    .footer-logo{
+        width: 200px;
+        height: 66px;
+    }
+    .footer-logo img{
+        width: 200px;
+        height: 66px;
+        margin: 170px 63px 125px 35px;
+    }
+
+    .circulo-G,
+    .circulo-I,
+    .circulo-F{
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .dev{
+        font-size: 20px;
+    }
+
+    .dev p{
+        font-size: 16px;
+    }
+
+}
